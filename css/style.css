@@ -1,0 +1,93 @@
+*{margin:0px;padding:0px;font-family:Helvetica, "Trebuchet MS", Arial, sans-serif;list-style:none;outline:none;border:none}
+body{font-size:12px;text-align:center;background:#F0F0F0}
+.clear{clear:both;}
+
+#main_container{width:900px;margin:auto;text-align:left;background:#CCC}
+#main_header{background:white;padding:25px 34px 25px 50px}
+	#main_logo{width:276px;height:71px;float:left}
+	#main_nav{float:right;margin:0 25px 0 0}
+	#main_nav a{color:#666}
+	#main_header_client_login{float:right;}
+	#main_header_client_login p{color:#C9252C}
+	#main_header_client_login input{display:block;border:1px solid silver}
+#main_footer{background:#C2DCFC;height:195px;background:url(/images/main/footer_bg.png) no-repeat;color:white;padding:60px 0 0 135px}
+#main_footer ul{float:left;margin:0 30px 0 0;height:155px}
+#main_footer ul.divider{border-right:1px solid white;padding:0 20px 0 0}
+#main_footer li{padding:0 0 5px 0}
+#main_footer a{color:white}
+
+/*****************
+HOME PAGE
+*****************/
+#hp_slider{width:900px;height:345px;overflow:hidden}
+	#hp_slider_wrapper{width:3600px;height:294px}
+	.hp_slider_item{height:294px;width:900px;float:left}
+	#hp_slider_select_bar{padding:18px 0 0 60px;width:840px;height:33px;background:url(/images/fp_slider/bg.png)}
+	.hp_selector{margin:0 10px 0 0;float:left;width:20px;height:20px;background:url(/images/fp_slider/selector.png) top}
+	.hp_selector.selected{background-position:bottom}
+	.hp_selector:hover{cursor:pointer}
+#hp_pitch{background:white;padding:30px 34px 30px 50px}
+#hp_tagline{width:375px;float:left}
+#hp_tagline h2{font-size:26px;color:#c9252c}
+#hp_description{width:416px;float:right;background:#e6e7e8}
+#hp_desc_header{height:20px;background:url(/images/main/hp_pitch_desc_header.png) no-repeat}
+#hp_desc_body{padding:0 15px;color:#969696;font-size:13px;line-height:20px}
+#hp_desc_footer{height:20px;background:url(/images/main/hp_pitch_desc_footer.png) no-repeat}
+#hp_social{padding:30px 34px 0 50px;background:#ffffff url(/images/main/hp_blog_bg.png) repeat-x}
+#hp_blog{width:440px;float:left}
+#hp_blog hr{border:1px solid #c8c9ca;margin:10px 0}
+.hp_blog{float:left;width:350px;margin:0 0 0 15px;line-height:20px;color:#6d6e70}
+.hp_blog h3{color:#c9252c;font-size:18px}
+.hp_blog h3 a{color:#C9252C;text-decoration:none}
+.hp_blog h3 a:hover{text-decoration:underline}
+.hp_blog_date{float:left;clear:left;font-size:16px;text-align:center;background:url(/images/main/hp_blog_date.png);width:57px;height:73px;}
+.hp_blog_date .month{color:white;padding:4px 0 5px 0}
+.hp_blog_date .day{color:black}
+#hp_twitter{width:360px;float:right;color:white;margin:0 -20px 0 0}
+#hp_twitter hr{border:1px solid white;margin:15px 0}
+#hp_twitter h2{font-size:26px;}
+#hp_twitter_body{background:url(/images/main/hp_twitter_header.png);padding:35px 25px 25px 25px;font-size:15px;line-height:20px}
+#hp_twitter_footer{height:31px;background:url(/images/main/hp_twitter_footer.png) no-repeat}
+
+/*********************
+FOLIO PAGE
+**********************/
+#folio_slider_container{position:relative;width:900px;height:413px;overflow:hidden;background:url(/images/folio/folio_slider/folio_slider_bg.png)}
+#folio_slider_wrapper{height:413px;width:100000px}
+.folio_slider_item{float:left;width:828px;height:341px;padding:36px}
+#folio_slider_controls{width:900px;height:132px;background:url(/images/folio/folio_slider/folio_bar.jpg)}
+.folio_slider_button{float:left;}
+
+.folio_slider_img{width:475px;float:left;}
+.folio_slider_img img{
+	-webkit-box-shadow: 2px 0px 25px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 0px 25px rgba(0,0,0,0.50);
+	box-shadow: 2px 0px 25px rgba(0,0,0,0.50);
+}
+.folio_slider_item h3{color:white;font-size:24px;}
+.folio_slider_item a{color:#A6E138}
+.folio_slider_description{width:320px;float:right;color:white;text-shadow: 2px 2px 18px #000;}
+.folio_overlay{position:absolute;width:145px;height:95px;background:url(/images/folio/folio_slider/overlay.png) top;}
+.folio_overlay:hover{background-position:bottom}
+.folio_overlay.selected{background-position:bottom}
+#folio_next{position:absolute;margin:45px 0 0 830px;}
+#folio_back{position:absolute;margin:45px 0 0 25px}
+#folio_next:hover, #folio_back:hover{cursor:pointer}
+
+
+#folio_control_container{width:725px;margin:15px 0 0 80px;position:absolute;overflow:hidden;}
+#folio_control_wrapper{height:120px;width:10000px}
+.folio_slider_button{width:145px;height:95px;float:left}
+
+/*************************************************
+BLOG PAGE
+*************************************************/
+#blog_container{padding:20px;background:url(/images/main/hp_blog_bg.png) repeat-x scroll 0 0 #FFFFFF}
+#blog_container hr{border:1px solid #c8c9ca;margin:10px 0}
+#blog_container .hp_blog{width:500px}
+#blog_container h1{color:#C9252C}
+#blog_container h3 a{color:#C9252C;text-decoration:none;}
+#blog_container h3 a:hover{text-decoration:underline}
+#main_blog_area{width:600px;float:left}
+
+#blog_sidebar{width:200px;float:right}
